@@ -98,7 +98,7 @@ class PandasFaker(object):
                 x = getattr(self.faker_obj, field)
                 data[field] = x()
             except:
-                print("{} is not currently implemented".fomrat(field) )
+                print("{} is not currently implemented".format(field) )
 
 
         return data
